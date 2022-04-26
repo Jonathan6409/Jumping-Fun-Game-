@@ -10,9 +10,9 @@ class Player(pygame.sprite.Sprite):
 
 		
 		self.direction = pygame.math.Vector2()
-		self.speed = 10
-		self.gravity = 0.8
-		self.jump_speed = 16
+		self.speed = 12
+		self.gravity = 0.7
+		self.jump_speed = 14
 		self.collision_sprites = collision_sprites
 		self.on_floor = False
 
